@@ -63,19 +63,19 @@ h2{
 	font-size: calc(1.3em + 1vw);
   line-height: calc(0.7em + 0.5vh);
 }
-li[class=""]{
+.Default:before{
 	-webkit-filter: hue-rotate(90deg);
 	filter: hue-rotate(90deg);
 }
-li[class="arrived"]{
+.arrived:before{
 	-webkit-filter: hue-rotate(0deg);
 	filter: hue-rotate(0deg);
 }
-li[class="lastcall"]{
+.lastcall:before{
 	-webkit-filter: hue-rotate(270deg);
 	filter: hue-rotate(270deg);
 }
-li[class="departed"]{
+.departed:before{
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
